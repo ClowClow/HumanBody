@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightblue;
+  color: deepskyblue;
+  text-align: center;
+}
+h1 {
+  text-shadow: 5px 2px 4px dimgrey, 3px 1px 2px DarkBlue;
+}
+img{
+  z-index: 1;
+}
+/* Lien pour la tête */
+a.head {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -83px;
+  z-index: 50;
+
+}
+a:hover.head, a:focus.head {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.head span.head{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.head span.head, a:focus.head span.head{
+  transform:scale(1) rotate(0);
+}
+
+/* Lien pour l'épaule */
+a.shoulder {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: -125px;
+  z-index: 50;
+
+}
+a:hover.shoulder, a:focus.shoulder {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.shoulder span.shoulder{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.shoulder span.shoulder, a:focus.shoulder span.shoulder{
+  transform:scale(1) rotate(0);
+}
+
+/* Lien pour la main */
+a.hand {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -135px;
+  z-index: 50;
+
+}
+a:hover.hand, a:focus.hand {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.hand span.hand{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.hand span.hand, a:focus.hand span.hand{
+  transform:scale(1) rotate(0);
+}
+/* Lien pour les pieds */
+a.feet {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 100%;
+  width: 115px;
+  position: absolute;
+  margin-top: 470px;
+  margin-left: -127px;
+  z-index: 50;
+
+}
+a:hover.feet, a:focus.feet {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.feet span.feet{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.feet span.feet, a:focus.feet span.feet{
+  transform:scale(1) rotate(0);
+}
+/* Lien pour le coude */
+a.elbow {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -25px;
+  z-index: 50;
+
+}
+a:hover.elbow, a:focus.elbow {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.elbow span.elbow{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.elbow span.elbow, a:focus.elbow span.elbow{
+  transform:scale(1) rotate(0);
+}
+/* Lien pour le genou */
+a.knee {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: -110px;
+  z-index: 50;
+
+}
+a:hover.knee, a:focus.knee {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.knee span.knee{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.knee span.knee, a:focus.knee span.knee{
+  transform:scale(1) rotate(0);
+}
+/* Lien pour la hanche */
+a.hip {
+  background-color: rgba(0,0,0,.9);
+  color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -50px;
+  z-index: 50;
+
+}
+a:hover.hip, a:focus.hip {
+  background: rgba(0,0,0,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+a.hip span.hip{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color:#09c;
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+a:hover.hip span.hip, a:focus.hip span.hip{
+  transform:scale(1) rotate(0);
+}
