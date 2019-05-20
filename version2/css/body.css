@@ -7,6 +7,13 @@ body {
   color: deepskyblue;
   text-align: center;
 }
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
 .header_titre {
   text-shadow: 5px 2px 4px dimgrey, 3px 1px 2px DarkBlue;
   font-size: 3em;
@@ -16,7 +23,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 20em;
+  height: 30em;
+  z-index: 9;
+  border: 0.2em solid DarkBlue;
+  border-radius: 2em;
 }
 .image_body {
-  z-index: 10;
+  z-index: 11;
+}
+.conteneur_texte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  height: 30em;
+  z-index: 9;
+  border: 0.2em solid DarkBlue;
+  border-radius: 2em;
 }
