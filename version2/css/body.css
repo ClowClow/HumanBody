@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightblue;
+  color: deepskyblue;
+  text-align: center;
+}
+.header_titre {
+  text-shadow: 5px 2px 4px dimgrey, 3px 1px 2px DarkBlue;
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+.conteneur_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image_body {
+  z-index: 10;
+}
